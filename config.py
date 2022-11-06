@@ -2,7 +2,7 @@ from lib.datasets import svhn, cifar10
 import numpy as np
 
 shared_config = {
-    "iteration" : 500000,
+    "iteration" : 10000,
     "warmup" : 200000,
     "lr_decay_iter" : 400000,
     "lr_decay_factor" : 0.2,
